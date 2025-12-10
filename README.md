@@ -41,14 +41,13 @@
 - **UniFi Network API** – APs, Switches, Clients, PoE-Steuerung, Discord Alerts
 - **Linux-Control** – SSH-basierter Adapter-Ersatz, Monitoring & Steuerung
 
-## 📈 GitHub Stats
+## 📈 GitHub Overview
 
 <p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=Ilovegym66&show_icons=true&theme=dark" />
-  <img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ilovegym66&layout=compact&theme=dark" />
+  <img src="https://img.shields.io/github/followers/Ilovegym66?style=social" />
+  <img src="https://img.shields.io/github/stars/Ilovegym66?style=social" />
 </p>
 
-<br clear="both" />
 
 ## 📫 Kontakt & Links
 
