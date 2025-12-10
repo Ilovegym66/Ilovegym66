@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Ilovegym66 👋</h1>
 <p align="center">
-  Homelab & Smart Home Enthusiast · ioBroker · Proxmox · UniFi · Synology · Monitoring
+  Homelab & Smart Home Enthusiast · Systems Engineer · Monitoring & Automation
 </p>
 
 <p align="center">
@@ -15,7 +15,8 @@
 - Fully script-based **ioBroker adapter replacements** (Synology, Viessmann, Proxmox, UniFi and more)
 - **Homelab** on a Proxmox cluster with Ceph, NAS, LXC/VM mix and niche hardware
 - Custom **dashboards** (HTML/CSS, MinuVis, Default-1 theme) for monitoring & automation
-- Central **notifications** (Discord) for all systems
+- Long-term experience as **ICT / Systems Engineer** in mission-critical environments (ESA / ESOC)
+- Central **notifications** (Discord, Telegram) for infrastructure, devices and scripts
 
 ---
 
@@ -23,13 +24,62 @@
 
 <p>
   <img src="https://img.shields.io/badge/OS-Debian-informational?style=flat&logo=debian&logoColor=white&color=red" />
+  <img src="https://img.shields.io/badge/Linux-Red%20Hat-informational?style=flat&logo=redhat&logoColor=white&color=EE0000" />
+  <img src="https://img.shields.io/badge/Linux-CentOS-informational?style=flat&logo=centos&logoColor=white&color=262577" />
   <img src="https://img.shields.io/badge/Hypervisor-Proxmox-informational?style=flat&logo=proxmox&logoColor=white&color=E57000" />
   <img src="https://img.shields.io/badge/Automation-ioBroker-informational?style=flat&color=3B8CDE" />
+  <img src="https://img.shields.io/badge/Automation-Ansible-informational?style=flat&logo=ansible&logoColor=white&color=EE0000" />
+  <img src="https://img.shields.io/badge/Config-Puppet-informational?style=flat&logo=puppet&logoColor=white&color=FFAE1A" />
   <img src="https://img.shields.io/badge/Containers-Docker-informational?style=flat&logo=docker&logoColor=white&color=2496ED" />
+  <img src="https://img.shields.io/badge/Containers-Kubernetes-informational?style=flat&logo=kubernetes&logoColor=white&color=326CE5" />
   <img src="https://img.shields.io/badge/Monitoring-Zabbix-informational?style=flat&logo=zabbix&logoColor=white&color=CC0000" />
+  <img src="https://img.shields.io/badge/Monitoring-Grafana-informational?style=flat&logo=grafana&logoColor=white&color=F46800" />
   <img src="https://img.shields.io/badge/Network-UniFi-informational?style=flat&logo=ubiquiti&logoColor=white&color=0559C9" />
   <img src="https://img.shields.io/badge/Language-JavaScript-informational?style=flat&logo=javascript&logoColor=black&color=F7DF1E" />
+  <img src="https://img.shields.io/badge/Language-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB" />
+  <img src="https://img.shields.io/badge/Methods-Scrum-informational?style=flat&logo=scrumalliance&logoColor=white&color=009FDA" />
+  <img src="https://img.shields.io/badge/Framework-ITIL%204-informational?style=flat&color=6236FF" />
 </p>
+
+---
+
+## 🧠 Skills
+
+### Programming & scripting
+- JavaScript for ioBroker (adapter-replacement scripts, dashboards, helper libraries)
+- Bash / shell scripting for Linux automation and SSH-based control
+- Python for tooling and integration work
+- JSON / YAML for configs, APIs and dashboards
+
+### Home automation & IoT
+- ioBroker (custom script adapters, `0_userdata.0` structures, VIS/HTML dashboards)
+- MQTT integrations (Zigbee2MQTT, Worx/Landroid, device telemetry)
+- ESPresense-based presence detection and distance evaluation
+- Smart devices: Fritz!DECT, SwitchBot, DeLonghi coffee machines, Worx mower, Hyundai Bluelink, Oilfox, Viessmann, etc.
+
+### Infrastructure & homelab
+- Proxmox VE (cluster setup, Ceph, LXC/VM lifecycle management)
+- Red Hat / CentOS / Debian on physical and virtual hosts
+- Docker & containerized services, including monitoring and automation stacks
+- Synology NAS (DSM, Photos, Surveillance Station, backup strategies)
+
+### Networking & security
+- UniFi stack (UDM Pro, APs, switches, VLANs, Wi‑Fi clients)
+- Network bonding, routing, IPv4/IPv6, firewalling (incl. Cisco)
+- VPN, secure remote access and segmentation for homelab and production
+- Practical experience in network and information security for critical systems
+
+### Monitoring, observability & operations
+- Zabbix for host and service monitoring
+- Grafana / HTML / MinuVis dashboards for system & device health
+- Backup monitoring, device watcher, **script heartbeat monitoring**
+- Incident handling, OCC operations and escalation in mission-critical environments
+
+### Methods & collaboration
+- Scrum & agile methods in infrastructure and automation projects
+- IT service management with ITIL 4 principles
+- Git & GitHub (scripts, dashboards, documentation)
+- Documentation and visualization of complex homelab & automation setups
 
 ---
 
@@ -46,7 +96,7 @@ graph LR
   F --> H[Dashboards: HTML / MinuVis / TV wallboards]
   D --> G
   E --> G
-  G --> I[Discord alerts]
+  G --> I[Discord & Telegram alerts]
 ```
 
 ---
@@ -57,46 +107,10 @@ graph LR
 - **UniFi Network dashboards** (clients, APs, switches, traffic, VLANs)
 - **Heating & energy** (Viessmann + Oilfox) with live and history views
 - **Backup & device watcher dashboards** for hosts, backups, status & errors
+- **Script monitor dashboard** for heartbeat states and script health
 - Shown on **wallboards / TVs** via MinuVis and custom Default-1 themed layouts
 
-
-## 🧠 Skills
-
-### Programming & Scripting
-- JavaScript (ioBroker JavaScript adapter, adapter-replacement scripts)
-- Bash / shell scripting (Linux automation, SSH-based control)
-- JSON / YAML for configs, APIs and dashboards
-
-### Home Automation & IoT
-- ioBroker (custom script adapters, 0_userdata.0 structures, VIS/HTML dashboards)
-- MQTT integrations (Zigbee2MQTT, Worx/Landroid, device telemetry)
-- ESPresense-based presence detection and distance evaluation
-- Smart devices: Fritz!DECT, SwitchBot, DeLonghi coffee machines, Worx mower, Hyundai Bluelink, Oilfox, Viessmann, etc.
-
-### Infrastructure & Homelab
-- Proxmox VE (cluster setup, Ceph, LXC/VM management)
-- Debian / Raspberry Pi OS on multiple nodes
-- Docker & containerized services
-- Synology NAS (DSM, Photos, Surveillance Station, backup strategies)
-
-### Networking
-- UniFi stack (UDM Pro, APs, switches, VLANs, Wi-Fi clients)
-- Network segmentation (VLANs, multiple subnets, IPv6)
-- Fritz!Box integration (TR-064, connectivity, telephony)
-
-### Monitoring & Observability
-- Zabbix (host and service monitoring)
-- Custom HTML / MinuVis dashboards for system & device health
-- Backup monitoring, device watcher, script heartbeat monitoring
-- Discord / Telegram notifications and alert routing
-
-### Tools & Collaboration
-- Git & GitHub (scripts, dashboards, documentation)
-- REST APIs & web services (Viessmann, Hyundai Bluelink, UniFi, Synology, etc.)
-- Documentation and visualization of complex homelab & automation setups
-
 ---
-
 
 ## 🧩 ioBroker script adapters (selection)
 
@@ -104,7 +118,7 @@ graph LR
 |-----------------------------|----------------------|----------------------------------------------------------------|
 | Synology DSM Script         | NAS / self-hosted    | DSM API, volumes, shares, VMM, backups, snapshots, dashboards |
 | Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter       |
-| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard       |
+| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard      |
 | UniFi Network Script        | Network              | APs, switches, clients, PoE, VLANs, Discord alerts            |
 | Proxmox Script              | Virtualization       | Cluster, nodes, VMs/LXCs, Ceph status, control functions      |
 | Linux-Control Script        | Servers / hosts      | SSH-based control & monitoring (updates, status, services)    |
@@ -129,7 +143,7 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 - A central monitor aggregates the states and
   - marks unhealthy or stalled scripts,
   - raises warnings if heartbeats are missing,
-  - can trigger **Discord notifications** for script failures.
+  - can trigger **Discord/Telegram notifications** for script failures.
 - Common conventions:
   - Heartbeat states under `0_userdata.0.*.Scripts.*`
   - Unified naming for easier dashboard integration.
@@ -173,6 +187,17 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 
 ---
 
+## 🎓 Certifications (selection)
+
+- **Red Hat Certified System Engineer (EX300)** – preparation track  
+- **Red Hat Certified System Administrator (EX200)** – preparation tracks (Deploy/Configure/Manage; File Access/Storage/Security)  
+- **Red Hat Certified Engineer (EX294)** – Cert Prep: Foundations of Ansible  
+- **Linux System Engineer: Network Bonding, IPv6, Routing & Virtual Systems**  
+- **Scrum Master – LinkedIn Learning**  
+- **Intro to Service Management with ITIL® 4 – LinkedIn Learning**
+
+---
+
 ## ⭐ Projects & repos
 
 Selected public repositories:
@@ -195,4 +220,4 @@ Selected public repositories:
 ## 📫 Contact
 
 - 💡 Questions welcome via issues in the respective repos  
-- 💬 Happy to talk about homelabs / ioBroker / Proxmox / UniFi anytime
+- 💬 Happy to talk about homelabs / ioBroker / Proxmox / UniFi / Red Hat anytime
