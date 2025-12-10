@@ -1,6 +1,6 @@
-<h1 align="center">Hi, ich bin Ilovegym66 👋</h1>
+<h1 align="center">Hi, I'm Ilovegym66 👋</h1>
 <p align="center">
-  Homelab- & Smart-Home-Enthusiast · ioBroker · Proxmox · UniFi · Synology · Monitoring
+  Homelab & Smart Home Enthusiast · ioBroker · Proxmox · UniFi · Synology · Monitoring
 </p>
 
 <p align="center">
@@ -10,16 +10,16 @@
 
 ---
 
-## 🚀 Kurzüberblick
+## 🚀 Quick overview
 
-- Vollständig skriptbasierte **ioBroker-Adapter-Ersatz-Skripte** (Synology, Viessmann, Proxmox, UniFi, u.v.m.)
-- **Homelab** auf Proxmox-Cluster mit Ceph, NAS, LXC/VM-Mix und Nischen-Hardware
-- Eigene **Dashboards** (HTML/CSS, MinuVis, Default-1 Theme) für Monitoring & Automation
-- Zentrale **Notifications** (Discord) für alle Systeme
+- Fully script-based **ioBroker adapter replacements** (Synology, Viessmann, Proxmox, UniFi and more)
+- **Homelab** on a Proxmox cluster with Ceph, NAS, LXC/VM mix and niche hardware
+- Custom **dashboards** (HTML/CSS, MinuVis, Default-1 theme) for monitoring & automation
+- Central **notifications** (Discord) for all systems
 
 ---
 
-## 🧰 Tech-Stack
+## 🧰 Tech stack
 
 <p>
   <img src="https://img.shields.io/badge/OS-Debian-informational?style=flat&logo=debian&logoColor=white&color=red" />
@@ -33,7 +33,7 @@
 
 ---
 
-## 🏗 Homelab-Architektur (Überblick)
+## 🏗 Homelab architecture (high level)
 
 ```mermaid
 graph LR
@@ -42,91 +42,111 @@ graph LR
   B --> D[Synology NAS]
   B --> E[Raspberry Pis / ESPresense]
   C --> F[ioBroker]
-  F --> G[Script-Adapter: Synology, Proxmox, UniFi, Viessmann, ...]
-  F --> H[Dashboards: HTML / MinuVis / TV-Wallboards]
+  F --> G[Script adapters: Synology, Proxmox, UniFi, Viessmann, ...]
+  F --> H[Dashboards: HTML / MinuVis / TV wallboards]
   D --> G
   E --> G
-  G --> I[Discord Alerts]
+  G --> I[Discord alerts]
 ```
 
 ---
 
-## 📊 Monitoring & Dashboards
+## 📊 Monitoring & dashboards
 
-- **Proxmox-/Ceph-Dashboards** in ioBroker mit HTML/CSS
-- **UniFi-Network-Dashboards** (Clients, APs, Switches, Traffic, VLANs)
-- **Heizung & Energie** (Viessmann + Oilfox) mit Live- und Historien-Darstellung
-- **Backup-/Device-Watcher-Dashboards** für Hosts, Backups, Status & Fehler
-- Anzeige auf **Wallboards / TV** via MinuVis und eigene Themes (Default-1)
-
----
-
-## 🧩 ioBroker Script-Adapter (Auswahl)
-
-| Name                        | Bereich              | Kurzbeschreibung                                                |
-|-----------------------------|----------------------|-----------------------------------------------------------------|
-| Synology DSM Script         | NAS / Selfhosted     | DSM-API, Volumes, Shares, VMM, Backups, Snapshots, Dashboards  |
-| Synology Photos Script      | Medien               | Photos-API, Index, Slideshow, Thumbnails via Webadapter        |
-| Viessmann API Script        | Heizung / Energie    | Vitodens + Oilfox, Live-Werte, Historie & HTML-Dashboard       |
-| UniFi Network Script        | Netzwerk             | APs, Switches, Clients, PoE, VLANs, Discord-Alerts             |
-| Proxmox Script              | Virtualisierung      | Cluster, Nodes, VMs/LXCs, Ceph-Status, Control-Funktionen      |
-| Linux-Control Script        | Server / Hosts       | SSH-basierte Steuerung + Monitoring (Updates, Status, Dienste) |
-| Fritz!DECT Script           | Smart Home           | AIN-basierte Geräte, Schalten, Verbrauch, Temperaturen         |
-| Tagesschau/News Script      | Info / Media         | Livestreams (HLS/YouTube), News-Ticker, Fallback-Handling      |
-| ESPresense Distance         | Presence             | Distanz-/Room-Aggregation, Präsenztexte, Zusatz-States         |
-| Worx/Landroid MQTT Script   | Garten               | MQTT-Steuerung, Status & Limits für Mäher                      |
-| Hyundai Ioniq 5 N Script    | Auto / Bluelink      | Status, Ladung, Remote-Funktionen via API-Bridge               |
-| DeLonghi Eletta Script      | Geräte               | Kaffeeautomat-Steuerung via API/MQTT                           |
-| SwitchBot Candle Script     | Geräte               | Kerzenwärmer (Cloud-API), Power & Status                       |
-| Discord Notify / Alerts     | Kommunikation        | Zentrale Discord-Benachrichtigungen für alle Systeme           |
-| Backup & Device Watcher     | Monitoring           | Backup-Monitoring, Device-Watcher, HTML-Dashboards             |
+- **Proxmox / Ceph dashboards** in ioBroker with HTML/CSS
+- **UniFi Network dashboards** (clients, APs, switches, traffic, VLANs)
+- **Heating & energy** (Viessmann + Oilfox) with live and history views
+- **Backup & device watcher dashboards** for hosts, backups, status & errors
+- Shown on **wallboards / TVs** via MinuVis and custom Default-1 themed layouts
 
 ---
 
-## 🧱 Framework & Tools
+## 🧩 ioBroker script adapters (selection)
+
+| Name                        | Domain               | Short description                                              |
+|-----------------------------|----------------------|----------------------------------------------------------------|
+| Synology DSM Script         | NAS / self-hosted    | DSM API, volumes, shares, VMM, backups, snapshots, dashboards |
+| Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter       |
+| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard       |
+| UniFi Network Script        | Network              | APs, switches, clients, PoE, VLANs, Discord alerts            |
+| Proxmox Script              | Virtualization       | Cluster, nodes, VMs/LXCs, Ceph status, control functions      |
+| Linux-Control Script        | Servers / hosts      | SSH-based control & monitoring (updates, status, services)    |
+| Fritz!DECT Script           | Smart home           | AIN based devices, switching, consumption, temperatures       |
+| Tagesschau / News Script    | Info / media         | Livestreams (HLS/YouTube), news ticker, fallback handling     |
+| ESPresense Distance         | Presence             | Distance/room aggregation, presence texts, extra states       |
+| Worx / Landroid MQTT Script | Garden               | MQTT control, status & limits for mower                       |
+| Hyundai Ioniq 5 N Script    | Car / Bluelink       | Status, charging, remote functions via API bridge             |
+| DeLonghi Eletta Script      | Devices              | Coffee machine control via API/MQTT                           |
+| SwitchBot Candle Script     | Devices              | Candle warmer (Cloud API), power & status                     |
+| Discord Notify / Alerts     | Communication        | Central Discord notifications for all systems                 |
+| Backup & Device Watcher     | Monitoring           | Backup monitoring, device watcher, HTML dashboards            |
+| Script Monitor & Heartbeat  | Meta / scripts       | Central script monitoring, heartbeat states & health checks   |
+
+---
+
+## 🩺 Script monitoring
+
+A dedicated **script monitor / heartbeat** setup keeps track of all major ioBroker scripts:
+
+- Each script reports a **heartbeat state** (`alive`, timestamp, last error).
+- A central monitor aggregates the states and
+  - marks unhealthy or stalled scripts,
+  - raises warnings if heartbeats are missing,
+  - can trigger **Discord notifications** for script failures.
+- Common conventions:
+  - Heartbeat states under `0_userdata.0.*.Scripts.*`
+  - Unified naming for easier dashboard integration.
+- Dashboards show at a glance:
+  - Which scripts are running,
+  - Last execution time,
+  - Error counters and status badges.
+
+---
+
+## 🧱 Framework & tools
 
 <details>
-<summary><b>Default-1 Theme & Dashboard-Framework</b></summary>
+<summary><b>Default-1 theme & dashboard framework</b></summary>
 
-- Zentrales **Default-1 Theme** für HTML/CSS-Dashboards (Farben, Badges, Layout)
-- Wiederverwendbare **Komponenten**: Cards, Progressbars, Badges, Tabellenlayouts
-- Einsatz in vielen Dashboards: Proxmox, UniFi, Viessmann, Backup, Battery, Device-Watcher u.v.m.
+- Central **Default-1 theme** for HTML/CSS dashboards (colors, badges, layout)
+- Reusable **components**: cards, progress bars, badges, table layouts
+- Used across many dashboards: Proxmox, UniFi, Viessmann, backup, battery, device watcher and more.
 </details>
 
 <details>
-<summary><b>Global-Tools & Helper</b></summary>
+<summary><b>Global tools & helpers</b></summary>
 
-- Gemeinsames **Global-Tools-Script** für alle Adapter-Ersatz-Skripte:
-  - `ensureState` / `safeSet` / Write-Limiter
-  - Heartbeat-States pro Script
-  - Logging & Debugging
-- Vereinheitlichte **State-Strukturen** unter `0_userdata.0.*`
+- Shared **Global-Tools script** for all adapter-replacement scripts:
+  - `ensureState` / `safeSet` / write limiter
+  - Heartbeat states per script
+  - Logging & debugging helpers
+- Unified **state structures** under `0_userdata.0.*`
 </details>
 
 <details>
-<summary><b>Notification-Engine</b> (Discord & Co.)</summary>
+<summary><b>Notification engine</b> (Discord, etc.)</summary>
 
-- Zentrale **Discord-Integration** für:
-  - Proxmox/Host-Status
-  - UniFi-Events (Clients, Geräte)
-  - Backups, Fehler, Warnungen
-  - Kamera-/Snapshot-Events
-- Flexible **Channels & Routing**, inkl. Entprellung und Deduplication
+- Central **Discord integration** for:
+  - Proxmox/host status
+  - UniFi events (clients, devices)
+  - Backups, errors, warnings
+  - Camera/snapshot events
+- Flexible **channels & routing**, including deduplication and de-bouncing
 </details>
 
 ---
 
-## ⭐ Projekte & Repos
+## ⭐ Projects & repos
 
-Aktuelle öffentliche Repos (Auszug):
+Selected public repositories:
 
 - 📁 **iobroker-dashboard-home**  
-  Sammlung von Dashboard-Templates, HTML/CSS-Komponenten und Beispiel-Setups für ioBroker.  
+  Collection of dashboard templates, HTML/CSS components and example setups for ioBroker.  
   → https://github.com/Ilovegym66/iobroker-dashboard-home
 
 ---
 
-## 📈 GitHub Overview
+## 📈 GitHub overview
 
 <p>
   <img src="https://img.shields.io/github/followers/Ilovegym66?style=social" />
@@ -135,7 +155,7 @@ Aktuelle öffentliche Repos (Auszug):
 
 ---
 
-## 📫 Kontakt
+## 📫 Contact
 
-- 💡 Fragen gerne direkt über Issues in den jeweiligen Repos  
-- 💬 Austausch zu Homelab / ioBroker / Proxmox / UniFi jederzeit willkommen
+- 💡 Questions welcome via issues in the respective repos  
+- 💬 Happy to talk about homelabs / ioBroker / Proxmox / UniFi anytime
