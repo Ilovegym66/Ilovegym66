@@ -36,14 +36,14 @@
 ## 🏗 Homelab architecture (high level)
 
 ```mermaid
-graph LR
-  A[Internet] --> B[UDM Pro / UniFi Network]
-  B --> C[Proxmox Cluster]
+flowchart LR
+  A[Internet] --> B[UDM Pro & UniFi Network]
+  B --> C[Proxmox cluster]
   B --> D[Synology NAS]
-  B --> E[Raspberry Pis / ESPresense]
+  B --> E[Raspberry Pis & ESPresense]
   C --> F[ioBroker]
-  F --> G[Script adapters: Synology, Proxmox, UniFi, Viessmann, ...]
-  F --> H[Dashboards: HTML / MinuVis / TV wallboards]
+  F --> G[Script adapters (Synology, Proxmox, UniFi, Viessmann)]
+  F --> H[Dashboards (HTML, MinuVis, TV wallboards)]
   D --> G
   E --> G
   G --> I[Discord alerts]
@@ -67,7 +67,7 @@ graph LR
 |-----------------------------|----------------------|----------------------------------------------------------------|
 | Synology DSM Script         | NAS / self-hosted    | DSM API, volumes, shares, VMM, backups, snapshots, dashboards |
 | Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter       |
-| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard       |
+| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard      |
 | UniFi Network Script        | Network              | APs, switches, clients, PoE, VLANs, Discord alerts            |
 | Proxmox Script              | Virtualization       | Cluster, nodes, VMs/LXCs, Ceph status, control functions      |
 | Linux-Control Script        | Servers / hosts      | SSH-based control & monitoring (updates, status, services)    |
