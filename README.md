@@ -59,7 +59,44 @@ graph LR
 - **Backup & device watcher dashboards** for hosts, backups, status & errors
 - Shown on **wallboards / TVs** via MinuVis and custom Default-1 themed layouts
 
+
+## 🧠 Skills
+
+### Programming & Scripting
+- JavaScript (ioBroker JavaScript adapter, adapter-replacement scripts)
+- Bash / shell scripting (Linux automation, SSH-based control)
+- JSON / YAML for configs, APIs and dashboards
+
+### Home Automation & IoT
+- ioBroker (custom script adapters, 0_userdata.0 structures, VIS/HTML dashboards)
+- MQTT integrations (Zigbee2MQTT, Worx/Landroid, device telemetry)
+- ESPresense-based presence detection and distance evaluation
+- Smart devices: Fritz!DECT, SwitchBot, DeLonghi coffee machines, Worx mower, Hyundai Bluelink, Oilfox, Viessmann, etc.
+
+### Infrastructure & Homelab
+- Proxmox VE (cluster setup, Ceph, LXC/VM management)
+- Debian / Raspberry Pi OS on multiple nodes
+- Docker & containerized services
+- Synology NAS (DSM, Photos, Surveillance Station, backup strategies)
+
+### Networking
+- UniFi stack (UDM Pro, APs, switches, VLANs, Wi-Fi clients)
+- Network segmentation (VLANs, multiple subnets, IPv6)
+- Fritz!Box integration (TR-064, connectivity, telephony)
+
+### Monitoring & Observability
+- Zabbix (host and service monitoring)
+- Custom HTML / MinuVis dashboards for system & device health
+- Backup monitoring, device watcher, script heartbeat monitoring
+- Discord / Telegram notifications and alert routing
+
+### Tools & Collaboration
+- Git & GitHub (scripts, dashboards, documentation)
+- REST APIs & web services (Viessmann, Hyundai Bluelink, UniFi, Synology, etc.)
+- Documentation and visualization of complex homelab & automation setups
+
 ---
+
 
 ## 🧩 ioBroker script adapters (selection)
 
