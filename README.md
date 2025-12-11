@@ -192,6 +192,7 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 
 ## 🎓 Certifications (selection)
 
+- **Incident Response and Digital Forensics** – IBM (2024/2025)  
 - **Red Hat Certified System Engineer (EX300)** – certification preparation  
 - **Red Hat Certified System Administrator (EX200)** – preparation tracks (Deploy/Configure/Manage; File Access/Storage/Security)  
 - **Red Hat Certified Engineer (EX294)** – Cert Prep: Foundations of Ansible  
@@ -199,7 +200,7 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 - **Scrum Master – LinkedIn Learning**  
 - **Intro to Service Management with ITIL® 4 – LinkedIn Learning**  
 - **CCNA (Cisco Certified Network Associate)** – course & certification prep (Udemy, 2020)  
-- **Incident Response and Digital Forensics** – IBM (2024/2025)  
+
 
 ---
 
