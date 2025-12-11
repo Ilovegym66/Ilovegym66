@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Ilovegym66 👋</h1>
 <p align="center">
-  Homelab & Smart Home Enthusiast · Systems Engineer · Monitoring & Automation
+  Homelab & Smart Home Enthusiast · Systems & Network Engineer (VoIP / Intercom) · Monitoring & Automation
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
 - **Homelab** on a Proxmox cluster with Ceph, NAS, LXC/VM mix and niche hardware
 - Custom **dashboards** (HTML/CSS, MinuVis, Default-1 theme) for monitoring & automation
 - Long-term experience as **ICT / Systems Engineer** in mission-critical environments (ESA / ESOC)
+- **Network engineering** background with focus on VoIP / intercom and secure connectivity
 - Central **notifications** (Discord, Telegram) for infrastructure, devices and scripts
 
 ---
@@ -35,6 +36,7 @@
   <img src="https://img.shields.io/badge/Monitoring-Zabbix-informational?style=flat&logo=zabbix&logoColor=white&color=CC0000" />
   <img src="https://img.shields.io/badge/Monitoring-Grafana-informational?style=flat&logo=grafana&logoColor=white&color=F46800" />
   <img src="https://img.shields.io/badge/Network-UniFi-informational?style=flat&logo=ubiquiti&logoColor=white&color=0559C9" />
+  <img src="https://img.shields.io/badge/Network-Cisco-informational?style=flat&logo=cisco&logoColor=white&color=1BA0D7" />
   <img src="https://img.shields.io/badge/Language-JavaScript-informational?style=flat&logo=javascript&logoColor=black&color=F7DF1E" />
   <img src="https://img.shields.io/badge/Language-Python-informational?style=flat&logo=python&logoColor=white&color=3776AB" />
   <img src="https://img.shields.io/badge/Methods-Scrum-informational?style=flat&logo=scrumalliance&logoColor=white&color=009FDA" />
@@ -63,9 +65,10 @@
 - Docker & containerized services, including monitoring and automation stacks
 - Synology NAS (DSM, Photos, Surveillance Station, backup strategies)
 
-### Networking & security
-- UniFi stack (UDM Pro, APs, switches, VLANs, Wi‑Fi clients)
+### Networking, VoIP & security
+- UniFi stack (UDM Pro, APs, switches, VLANs, Wi-Fi clients)
 - Network bonding, routing, IPv4/IPv6, firewalling (incl. Cisco)
+- VoIP & intercom systems (SIP, RTP, signalling, integration into monitoring)
 - VPN, secure remote access and segmentation for homelab and production
 - Practical experience in network and information security for critical systems
 
@@ -73,7 +76,7 @@
 - Zabbix for host and service monitoring
 - Grafana / HTML / MinuVis dashboards for system & device health
 - Backup monitoring, device watcher, **script heartbeat monitoring**
-- Incident handling, OCC operations and escalation in mission-critical environments
+- Incident response, troubleshooting and escalation in mission-critical environments
 
 ### Methods & collaboration
 - Scrum & agile methods in infrastructure and automation projects
@@ -189,12 +192,14 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 
 ## 🎓 Certifications (selection)
 
-- **Red Hat Certified System Engineer (EX300)** – preparation track  
+- **Red Hat Certified System Engineer (EX300)** – certification preparation  
 - **Red Hat Certified System Administrator (EX200)** – preparation tracks (Deploy/Configure/Manage; File Access/Storage/Security)  
 - **Red Hat Certified Engineer (EX294)** – Cert Prep: Foundations of Ansible  
 - **Linux System Engineer: Network Bonding, IPv6, Routing & Virtual Systems**  
 - **Scrum Master – LinkedIn Learning**  
-- **Intro to Service Management with ITIL® 4 – LinkedIn Learning**
+- **Intro to Service Management with ITIL® 4 – LinkedIn Learning**  
+- **CCNA (Cisco Certified Network Associate)** – course & certification prep (Udemy, 2020)  
+- **Incident Response and Digital Forensics** – IBM (2024/2025)  
 
 ---
 
@@ -220,4 +225,4 @@ Selected public repositories:
 ## 📫 Contact
 
 - 💡 Questions welcome via issues in the respective repos  
-- 💬 Happy to talk about homelabs / ioBroker / Proxmox / UniFi / Red Hat anytime
+- 💬 Happy to talk about homelabs / ioBroker / Proxmox / UniFi / Red Hat / networking anytime
