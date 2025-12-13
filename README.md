@@ -120,7 +120,7 @@ graph LR
 | Name                        | Domain               | Short description                                              |
 |-----------------------------|----------------------|----------------------------------------------------------------|
 | Synology DSM Script         | NAS / self-hosted    | DSM API, volumes, shares, VMM, backups, snapshots, dashboards |
-| Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter       |
+| Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter      |
 | Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard      |
 | UniFi Network Script        | Network              | APs, switches, clients, PoE, VLANs, Discord alerts            |
 | Proxmox Script              | Virtualization       | Cluster, nodes, VMs/LXCs, Ceph status, control functions      |
@@ -135,6 +135,9 @@ graph LR
 | Discord Notify / Alerts     | Communication        | Central Discord notifications for all systems                 |
 | Backup & Device Watcher     | Monitoring           | Backup monitoring, device watcher, HTML dashboards            |
 | Script Monitor & Heartbeat  | Meta / scripts       | Central script monitoring, heartbeat states & health checks   |
+
+- 🧩 LG ThinQ Connect Script → [iobroker-Devices-Scripts/lg-thinq-connect](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/lg-thinq-connect)
+
 
 ---
 
