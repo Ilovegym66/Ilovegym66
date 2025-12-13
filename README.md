@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Ilovegym66 👋</h1>
 <p align="center">
-  Homelab & Smart Home Enthusiast · Systems & Network Engineer (VoIP / Intercom) · Monitoring & Automation
+  Homelab & Smart Home Enthusiast · Systems & Network Engineer · Monitoring & Automation
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 - Fully script-based **ioBroker adapter replacements** (Synology, Viessmann, Proxmox, UniFi and more)
 - **Homelab** on a Proxmox cluster with Ceph, NAS, LXC/VM mix and niche hardware
 - Custom **dashboards** (HTML/CSS, MinuVis, Default-1 theme) for monitoring & automation
-- Long-term experience as **ICT / Systems Engineer** in mission-critical environments (ESA / ESOC)
+- Long-term experience as **ICT / OCC Engineer** in mission-critical environments 
 - **Network engineering** background with focus on VoIP / intercom and secure connectivity
 - Central **notifications** (Discord, Telegram) for infrastructure, devices and scripts
 
