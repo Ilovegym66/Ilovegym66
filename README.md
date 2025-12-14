@@ -226,6 +226,14 @@ Selected public repositories:
 
 ---
 
+## 🌐 Community
+
+- 🇩🇪 Organizer / member of the **ioBroker Stammtisch Rhein-Main** (Discord)
+  - German-speaking community for smart home, ioBroker and homelab topics  
+  - Join via Discord: https://discord.gg/yC65zjr5uq
+
+---
+
 ## 📫 Contact
 
 - 💡 Questions welcome via issues in the respective repos  
