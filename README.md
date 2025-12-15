@@ -202,7 +202,7 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 - **Linux System Engineer: Network Bonding, IPv6, Routing & Virtual Systems**  
 - **Scrum Master – LinkedIn Learning**  
 - **Intro to Service Management with ITIL® 4 – LinkedIn Learning**  
-- **CCNA (Cisco Certified Network Associate)** – course & certification prep (Udemy, 2020)  
+- **CCNA (Cisco Certified Network Associate)** – course & certification (Udemy, 2020)  
 
 
 ---
@@ -230,7 +230,7 @@ Selected public repositories:
 ## 🌐 Community
 
 - 🇩🇪 Organizer / member of the **ioBroker Stammtisch Rhein-Main** (Discord)
-  - German-speaking community for smart home, ioBroker and homelab topics  
+  - German/English-speaking community for smart home, ioBroker and homelab topics  
   - Join via Discord: https://discord.gg/yC65zjr5uq
 
 ---
