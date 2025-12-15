@@ -196,9 +196,9 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 ## 🎓 Certifications (selection)
 
 - **Incident Response and Digital Forensics** – IBM (2024/2025)  
-- **Red Hat Certified System Engineer (EX300)** – certification preparation  
-- **Red Hat Certified System Administrator (EX200)** – preparation tracks (Deploy/Configure/Manage; File Access/Storage/Security)  
-- **Red Hat Certified Engineer (EX294)** – Cert Prep: Foundations of Ansible  
+- **Red Hat Certified System Engineer (EX300)**   
+- **Red Hat Certified System Administrator (EX200)** (Deploy/Configure/Manage; File Access/Storage/Security)  
+- **Red Hat Certified Engineer (EX294)** – Foundations of Ansible  
 - **Linux System Engineer: Network Bonding, IPv6, Routing & Virtual Systems**  
 - **Scrum Master – LinkedIn Learning**  
 - **Intro to Service Management with ITIL® 4 – LinkedIn Learning**  
@@ -214,7 +214,8 @@ Selected public repositories:
 - 📁 **iobroker-dashboard-home**  
   Collection of dashboard templates, HTML/CSS components and example setups for ioBroker.  
   → https://github.com/Ilovegym66/iobroker-dashboard-home
-
+- 🧩 LG ThinQ Connect Script
+  → [iobroker-Devices-Scripts/lg-thinq-connect](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/lg-thinq-connect)
 ---
 
 ## 📈 GitHub overview
