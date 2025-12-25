@@ -115,28 +115,27 @@ graph LR
 
 ---
 
-## 🧩 ioBroker script adapters (selection)
+## ioBroker script adapters (selection)
 
-| Name                        | Domain               | Short description                                              |
-|-----------------------------|----------------------|----------------------------------------------------------------|
-| Synology DSM Script         | NAS / self-hosted    | DSM API, volumes, shares, VMM, backups, snapshots, dashboards |
-| Synology Photos Script      | Media                | Photos API, index, slideshow, thumbnails via Web adapter      |
-| Viessmann API Script        | Heating / energy     | Vitodens + Oilfox, live values, history & HTML dashboard      |
-| UniFi Network Script        | Network              | APs, switches, clients, PoE, VLANs, Discord alerts            |
-| Proxmox Script              | Virtualization       | Cluster, nodes, VMs/LXCs, Ceph status, control functions      |
-| Linux-Control Script        | Servers / hosts      | SSH-based control & monitoring (updates, status, services)    |
-| Fritz!DECT Script           | Smart home           | AIN based devices, switching, consumption, temperatures       |
-| Tagesschau / News Script    | Info / media         | Livestreams (HLS/YouTube), news ticker, fallback handling     |
-| ESPresense Distance         | Presence             | Distance/room aggregation, presence texts, extra states       |
-| Worx / Landroid MQTT Script | Garden               | MQTT control, status & limits for mower                       |
-| Hyundai Ioniq 5 N Script    | Car / Bluelink       | Status, charging, remote functions via API bridge             |
-| DeLonghi Eletta Script      | Devices              | Coffee machine control via API/MQTT                           |
-| SwitchBot Candle Script     | Devices              | Candle warmer (Cloud API), power & status                     |
-| Discord Notify / Alerts     | Communication        | Central Discord notifications for all systems                 |
-| Backup & Device Watcher     | Monitoring           | Backup monitoring, device watcher, HTML dashboards            |
-| Script Monitor & Heartbeat  | Meta / scripts       | Central script monitoring, heartbeat states & health checks   |
-
-- 🧩 LG ThinQ Connect Script → [iobroker-Devices-Scripts/lg-thinq-connect](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/lg-thinq-connect)
+| Name                      | Domain             | Short description                                                             |
+|---------------------------|--------------------|-------------------------------------------------------------------------------|
+| [Synology DSM Script](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/synologyDSM) | NAS / self-hosted  | DSM API, volumes, shares, VMM, backups, snapshots, dashboards                |
+| [Synology Photos Script](https://github.com/Ilovegym66/iobroker-Dashboards-Scripts/tree/main/synologyPhotos) | Media              | Photos API, index, slideshow, thumbnails via Web adapter                      |
+| Viessmann API Script      | Heating / energy   | Vitodens + Oilfox, live values, history & HTML dashboard                     |
+| UniFi Network Script      | Network            | APs, switches, clients, PoE, VLANs, Discord alerts                           |
+| Proxmox Script            | Virtualization     | Cluster, nodes, VMs/LXCs, Ceph status, control functions                     |
+| Linux-Control Script      | Servers / hosts    | SSH-based control & monitoring (updates, status, services)                   |
+| Fritz!DECT Script         | Smart home         | AIN-based devices, switching, consumption, temperatures                      |
+| Tagesschau / News Script  | Info / media       | Livestreams (HLS/YouTube), news ticker, fallback handling                    |
+| ESPresense Distance       | Presence           | Distance/room aggregation, presence texts, extra states                      |
+| Worx / Landroid MQTT      | Garden             | MQTT control, status & limits for mower                                      |
+| Hyundai Ioniq 5 N Script  | Car / Bluelink     | Status, charging, remote functions via API bridge                            |
+| [DeLonghi Eletta Script](https://github.com/Ilovegym66/iobroker-Dashboards-Scripts/tree/main/deLonghi) | Devices / coffee   | Coffee machine statistics & dashboard for VIS/vis2/jarvis/minuvis            |
+| SwitchBot Candle Script   | Devices            | Candle warmer (cloud API), power & status                                    |
+| Discord Notify / Alerts   | Communication      | Central Discord notifications for all systems                                |
+| Backup & Device Watcher   | Monitoring         | Backup monitoring, device watcher, HTML dashboards                           |
+| Script Monitor & Heartbeat| Meta / scripts     | Central script monitoring, heartbeat states & health checks                  |
+| [LG ThinQ Connect Script](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/lg-thinq-connect) | Devices            | ThinQ Connect PAT-based integration for fridge / washer / dryer              |
 
 
 ---
