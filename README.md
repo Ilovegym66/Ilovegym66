@@ -211,11 +211,22 @@ A dedicated **script monitor / heartbeat** setup keeps track of all major ioBrok
 
 Selected public repositories:
 
-- 📁 **iobroker-dashboard-home**  
-  Collection of dashboard templates, HTML/CSS components and example setups for ioBroker.  
-  → https://github.com/Ilovegym66/iobroker-dashboard-home
-- 🧩 LG ThinQ Connect Script
-  → [iobroker-Devices-Scripts/lg-thinq-connect](https://github.com/Ilovegym66/iobroker-Devices-Scripts/tree/main/lg-thinq-connect)
+- [iobroker-dashboard-home](https://github.com/Ilovegym66/iobroker-dashboard-home)  
+  Main collection of dashboard templates, HTML/CSS components and Default-1 themed layouts for ioBroker wallboards and MinuVis.
+
+- [iobroker-Dashboards-Scripts](https://github.com/Ilovegym66/iobroker-Dashboards-Scripts)  
+  JavaScript-based dashboard generators for ioBroker (Proxmox, UniFi, Viessmann, backup, script monitor, etc.) – without needing Grafana.
+
+- [iobroker-Devices-Scripts](https://github.com/Ilovegym66/iobroker-Devices-Scripts)  
+  Adapter replacement scripts for various devices and APIs (Synology, Viessmann, UniFi, Proxmox, LG ThinQ, Worx, Hyundai, Fritz!DECT, …).  
+  Includes the **LG ThinQ Connect** script (`lg-thinq-connect`) for refrigerators, washers and dryers using ThinQ Connect PAT.
+
+- [iobroker-global-Scripts](https://github.com/Ilovegym66/iobroker-global-Scripts)  
+  Shared global libraries like `Global-Tools` and `_libVoiceGpt` used across most of the other ioBroker scripts (state helpers, formatting, heartbeat, notification helpers).
+
+- [ioBroker.minuvis](https://github.com/Ilovegym66/ioBroker.minuvis) (fork)  
+  Customized fork of the ioBroker MinuVis visualization, used as the base for several of the dashboards above.
+
 ---
 
 ## 📈 GitHub overview
