@@ -240,6 +240,11 @@ Selected public repositories:
 ## 🌐 Community
 
 - 🇩🇪 Organizer / member of the **ioBroker Stammtisch Rhein-Main** (Discord)
+
+   <a href="https://discord.gg/yC65zjr5uq">
+  <img src="https://github.com/Ilovegym66/Ilovegym66/blob/main/IoBroker%20Rhein-Main%20Stammtisch%20Logo.png" alt="ioBroker Rhein-Main Stammtisch" width="200"/>
+</a>
+
   - German/English-speaking community for smart home, ioBroker and homelab topics  
   - Join via Discord: https://discord.gg/yC65zjr5uq
 
