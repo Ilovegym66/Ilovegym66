@@ -240,6 +240,17 @@ Selected public repositories:
 ## 🌐 Community
 
 - 🇩🇪 Organizer / member of the **ioBroker Stammtisch Rhein-Main** (Discord)
+  <p align="center">
+  <a href="https://discord.gg/DEIN-DISCORD-LINK">
+    <img src="assets/logo.png" width="200" alt="ioBroker Rhein-Main Stammtisch Logo"/>
+  </a>
+</p>
+
+## Willkommen beim ioBroker Stammtisch Rhein-Main 👋
+
+📅 Monatliche Treffen, Smart Home Austausch, ioBroker-Nerd-Talk  
+🔗 [Zum Discord-Server](https://discord.gg/DEIN-DISCORD-LINK)
+
 
   - German/English-speaking community for smart home, ioBroker and homelab topics  
   - Join via Discord: https://discord.gg/yC65zjr5uq
