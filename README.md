@@ -242,7 +242,7 @@ Selected public repositories:
 - 🇩🇪 Organizer / member of the **ioBroker Stammtisch Rhein-Main** (Discord)
   <p align="center">
   <a href="https://discord.gg/DEIN-DISCORD-LINK">
-    <img src="assets/logo.png" width="200" alt="ioBroker Rhein-Main Stammtisch Logo"/>
+    <img src="https://github.com/Ilovegym66/Ilovegym66/blob/main/IoBroker%20Rhein-Main%20Stammtisch%20Logo.png" width="200" alt="ioBroker Rhein-Main Stammtisch Logo"/>
   </a>
 </p>
 
