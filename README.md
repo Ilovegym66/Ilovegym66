@@ -249,9 +249,7 @@ Selected public repositories:
 ## Willkommen beim ioBroker Stammtisch Rhein-Main 👋
 
 📅 Monatliche Treffen, Smart Home Austausch, ioBroker-Nerd-Talk  
-🔗 [Zum Discord-Server](https://discord.gg/DEIN-DISCORD-LINK)
-
-
+🔗 [Zum Discord-Server](https://discord.gg/yC65zjr5uq)
   - German/English-speaking community for smart home, ioBroker and homelab topics  
   - Join via Discord: https://discord.gg/yC65zjr5uq
 
