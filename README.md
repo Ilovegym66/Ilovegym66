@@ -211,46 +211,6 @@ A compact utility repository for ioBroker-related helper tooling.
 
 ---
 
-### 5) ioBroker Dashboard Home
-**Repo:** [`iobroker-dashboard-home`](https://github.com/Ilovegym66/iobroker-dashboard-home)
-
-A lightweight dashboard frontend that connects to ioBroker via the **ioBroker.ws adapter** and uses plain JavaScript and CSS.
-
-**Repository structure currently includes:**
-
-- `assets`
-- `data`
-- `doc/img`
-- `editor`
-- `schema`
-- `tools`
-- `config.json`
-- `config_prod.json`
-- `gulpfile.js`
-- `index.html`
-- `package.json`
-
-**Project characteristics:**
-
-- Framework-light approach
-- Web dashboard frontend
-- Separate config files
-- Editor and schema support
-
----
-
-### 6) ioBroker MinuVis
-**Repo:** [`ioBroker.minuvis`](https://github.com/Ilovegym66/ioBroker.minuvis)
-
-A public fork of MinuVis used as one of the foundations for customized dashboard work.
-
-**Focus:**
-
-- visualization
-- dashboard presentation
-- ioBroker UI customization
-
----
 
 ## 📈 What ties these repositories together
 
